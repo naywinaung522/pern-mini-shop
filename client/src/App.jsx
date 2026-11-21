@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div className="wrap">
-      <h1>Mini Shop</h1>
+      <h1>Ko Nay Mini Shop</h1>
       {selected ? (
         <div className="detail">
           <button onClick={() => setSelected(null)}>← Back</button>
